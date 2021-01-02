@@ -1,0 +1,24 @@
+{
+  "name": "work-teest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack serve",
+    "serve": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.0"
+  }
+}
